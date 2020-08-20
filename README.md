@@ -1,7 +1,7 @@
 # py_test
 test pip install for myself package
 
-#1,Generating distribution archives
+# Generating distribution archives
 
 Make sure you have the latest versions of setuptools and wheel installed:
 ```
@@ -18,7 +18,7 @@ dist/
   example_pkg_YOUR_USERNAME_HERE-0.0.1-py3-none-any.whl
   example_pkg_YOUR_USERNAME_HERE-0.0.1.tar.gz
   
-#2,Uploading the distribution archives
+# Uploading the distribution archives
   
 Get account first, Now that you are registered, you can use twine to upload the distribution packages. You’ll need to install Twine:
 ```
@@ -40,7 +40,7 @@ or
 pip3 install example-pkg-name
 ```
 
-#3, if upload failed, you can try(ubuntu18.04):
+# if upload failed, you can try(ubuntu18.04):
 ```
 python3 -m pip install keyring
 
