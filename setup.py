@@ -1,9 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-setuptools.setup(name='py_test',
-      version='0.01',
+setup(name='py-pytest',
+      version='0.0.1',
       description='test install myself package',
       url='https://github.com/wxing2008666/py_test',
+      author='w',
+      author_email='w@1163.com',
       license='MIT',
-      packages=setuptools.find_packages(),
+      packages=find_packages(),
       zip_safe=False)
